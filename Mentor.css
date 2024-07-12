@@ -1,0 +1,304 @@
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*="col-"]{
+    float: left;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+@media only screen and 
+(max-width: 768px){
+    /* for mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+}
+
+*body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.headnote{
+    display: flex;
+    width: 100%;
+    gap: 80px;
+    justify-content: center;
+}
+#head1{
+    color: green;
+}
+#head2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#navlink{
+    margin-bottom: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+/* #navlink:hover{
+    background-color: green;
+    color: white;
+} */
+.navlink{
+    text-decoration: none;
+}
+#mini{
+    margin-left: 100px;
+    background-color: green;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    margin-top: 45px;
+}
+/* end of navigation section */
+.hero{
+    margin-top: 20px;
+    background-image: url(img/hero-bg.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inhero{
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 220px;
+}
+/* About page begins */
+.TT{
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mainleft{
+    width: 40%;
+    padding-left: 15px;
+}
+#mainright{
+    width: 40%;
+}
+#pix{
+    width: 80%;
+    position: absolute;
+    margin-left: 25px;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: green;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 40px;
+}
+/* courses page begins */
+.value{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    gap: 100px;
+    /* width: 100%; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.value1{
+    color: aqua;
+    padding-left: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.base{
+    display: flex;
+    /* width: 100%; */
+    margin-right: 20px;
+    padding-right: 15px;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#leftbase{
+    color: wheat;
+    background-color: green;
+    /* width: 20%; */
+    padding: 40px;
+    margin-top: 35px;
+    line-height: 25px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#learn{
+    color: green;
+    background-color: aquamarine;
+    width: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.rightbase{
+    /* width: 50%; */
+    display: flex;
+    margin-top: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    padding-right: 20px;
+    gap: 40px;
+    justify-content: center;
+    text-indent: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#right1{
+    line-height: 25px;
+    border: 1px solid grey;
+    text-align: center;
+    /* width: 30%; */
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 15px;
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+#right2{
+    line-height: 25px;
+    border: 1px solid grey;
+    text-align: center;
+    /* width: 30%; */
+    padding: 20px;
+    margin-right: 15px;
+    margin-top: 35px;
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+#right3{
+    line-height: 25px;
+    border: 1px solid grey;
+    text-align: center;
+    /* width: 30%; */
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 15px;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+}
+span{
+    color: gray;
+}
+#emoji{
+    background-color: gainsboro;
+    border-radius: 50%;
+    padding: 20px;
+}
+/* trainers section begin */
+.tutor{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#tutorx{
+    width: 20%;
+}
+
+#tutory{
+    width: 20%;
+}
+#tutorz{
+    width: 20%;
+    
+}
+
+/* #tutor1{
+    width: 100%;
+}
+#tutor2{
+    width: 100%;
+}
+#tutor3{
+    width: 100%;
+} */
+#not{
+    text-align: center;
+}
+/* PRICING BEGINS */
+.post{
+  display: flex;  
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px;
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#apost{
+    padding: 5px 20px 5px 20px;
+    border: 2px solid gray;
+    /* width: 100%; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.post2{
+    display: flex;  
+    /* width: 100%; */
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.post3{
+    margin-top: 60px;
+    display: flex;  
+    /* width: 100%; */
+    gap: 20px;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+    
